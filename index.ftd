@@ -57,6 +57,7 @@ boolean $open: false
 ;; column for box
 -- ftd.column:
 border-width.px: 4
+border-color: $inherited.colors.border
 spacing.fixed.px: 10
 width: fill-container
 
@@ -67,6 +68,7 @@ width: fill-container
 width: fill-container
 spacing: space-between
 border-bottom-width.px: 1
+border-color: $inherited.colors.border
 padding.px: 10
 $on-click$: $toggle($value = $box.open)
 
